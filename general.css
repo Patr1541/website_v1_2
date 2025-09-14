@@ -1,0 +1,154 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#paragraf_galleri {
+  max-width: 65ch;
+}
+
+main {
+  background-color: rgb(172, 77, 193);
+}
+
+h1 {
+  color: rgba(2, 2, 220, 0.925);
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: rgba(30, 63, 172, 0.751);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/*nav {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(44, 141, 220, 0.587);
+}*/
+
+footer {
+  background-color: rgba(95, 14, 129, 0.925);
+  font-size: 2em;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2em;
+}
+
+header {
+  margin: auto;
+  padding: auto;
+}
+
+dl {
+  line-height: 2;
+  padding: 0px;
+  font-size: medium;
+  color: rgba(32, 44, 157, 0.733);
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bolder;
+  color: rgba(30, 1, 29, 0.646);
+  background-color: rgb(175, 134, 225);
+  margin-top: 10px;
+}
+
+/*knap-link-CAT*/
+.grid_2-1 a {
+  display: inline-block;
+  background-color: rgba(130, 130, 208, 0.925);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px rgb(48, 50, 56);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.grid_2-1 a:hover {
+  background-color: rgb(104, 183, 219);
+}
+
+nav li:hover {
+  background-color: rgb(104, 183, 219);
+}
+
+/*Peters menu*/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(95, 14, 129, 0.925);
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(161, 101, 216);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(44, 141, 220, 0.587);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: rgba(109, 2, 130, 0.925);
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.grid_1-1 p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+* {
+  padding: 1rem;
+  color: whitesmoke;
+}
